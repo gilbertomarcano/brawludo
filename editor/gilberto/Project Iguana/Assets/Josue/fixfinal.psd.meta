@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 0505ce0e993454f4f85a614ab87803ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3304534381186386529
+    second: Shoulder Front
+  - first:
+      213: 6094746334361814630
+    second: Armor
+  - first:
+      213: 9140742542053004247
+    second: Shoulder Back
+  - first:
+      213: 4134470982481670237
+    second: Head
+  - first:
+      213: -5969899546075550133
+    second: Arm Front
+  - first:
+      213: -4183424181556331753
+    second: Chest
+  - first:
+      213: 1074658715354680415
+    second: Arm Back
+  - first:
+      213: -2477379589741316107
+    second: Forearm Front
+  - first:
+      213: -6147978334379842624
+    second: Abdomen
+  - first:
+      213: 5846531181697873820
+    second: Forearm Back
+  - first:
+      213: 2448223919408757416
+    second: Hand Front
+  - first:
+      213: 497696812452471379
+    second: Hip
+  - first:
+      213: 8211318405894595348
+    second: Hand Back
+  - first:
+      213: -8416023223552560711
+    second: Leg Front
+  - first:
+      213: 7614755753514424854
+    second: Leg Back
+  - first:
+      213: -4824244085549366678
+    second: Foot Front
+  - first:
+      213: 1957465380254367154
+    second: Foot Back
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoulder Front
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1294
+        width: 139
+        height: 136
+      alignment: 9
+      pivot: {x: 0.69872385, y: 0.32397282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22527a4c592b21e4a87187545102035f
+      internalID: -3304534381186386529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armor
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1286
+        width: 438
+        height: 257
+      alignment: 9
+      pivot: {x: 0.6261307, y: 0.1488949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ac557c814aba48b3ba7856dbaed2c
+      internalID: 6094746334361814630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoulder Back
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1235
+        width: 148
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46267205, y: 0.46189976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71d18bbbb654eb4c8574e57a4dced39
+      internalID: 9140742542053004247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 848
+        width: 492
+        height: 674
+      alignment: 9
+      pivot: {x: 0.57111514, y: 0.043721184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916fc45287327db4d9a2d0a75945cd15
+      internalID: 4134470982481670237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm Front
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 963
+        width: 101
+        height: 228
+      alignment: 9
+      pivot: {x: 0.48176703, y: 0.90383965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fb1bfd03c07cb4e9fb84400299b2b0
+      internalID: -5969899546075550133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 914
+        width: 329
+        height: 322
+      alignment: 9
+      pivot: {x: 0.52798647, y: 0.0882339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24e7b197cb984c4896c456f184c07d1
+      internalID: -4183424181556331753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm Back
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 934
+        width: 101
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.92807007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a1d17316d98c34fb0e614b9204e93f
+      internalID: 1074658715354680415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forearm Front
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 697
+        width: 159
+        height: 224
+      alignment: 9
+      pivot: {x: 0.47683638, y: 0.91927177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c5eaebea0e8f543b538d030ee528c2
+      internalID: -2477379589741316107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abdomen
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 741
+        width: 213
+        height: 150
+      alignment: 9
+      pivot: {x: 0.47406322, y: 0.26674193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87777e416f8e74a9fc1331f42a4277
+      internalID: -6147978334379842624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forearm Back
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 685
+        width: 159
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5115817, y: 0.87816674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf508b72b6beb1468212b2d77f05fec
+      internalID: 5846531181697873820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Front
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 211
+        height: 176
+      alignment: 9
+      pivot: {x: 0.44763485, y: 0.8348191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455e23be2c417a140b19950c3c1aa39c
+      internalID: 2448223919408757416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hip
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 616
+        width: 198
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5279017, y: 0.8013361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bcbbb684072db44aedbccb270e564b
+      internalID: 497696812452471379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand Back
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 478
+        width: 185
+        height: 192
+      alignment: 9
+      pivot: {x: 0.2113311, y: 0.69182366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229b294e4768278458356d2158c20720
+      internalID: 8211318405894595348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg Front
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 401
+        width: 117
+        height: 196
+      alignment: 9
+      pivot: {x: 0.23243022, y: 0.89460814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d0ac259289314fb56ecd25647f552
+      internalID: -8416023223552560711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leg Back
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 356
+        width: 117
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b1b66ad0cdc4f4d9439ca8153ba54a
+      internalID: 7614755753514424854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot Front
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 185
+        height: 195
+      alignment: 9
+      pivot: {x: 0.47013766, y: 0.8966325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d6f3a87f807aa48a853c24aa338a78
+      internalID: -4824244085549366678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot Back
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 86
+        width: 186
+        height: 196
+      alignment: 9
+      pivot: {x: 0.4504972, y: 0.8946088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d9ba2deb97e3042ba05106ecd035a9
+      internalID: 1957465380254367154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
