@@ -1,2 +1,3 @@
 # project-iguana
-Random stuff del juego
+Proyecto del la univercidad, un juego de combate
+
