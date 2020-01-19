@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/lobi.unity
+- path: Assets/Scenes/Mainmenu.unity
   isLoaded: 1
   isActive: 1
