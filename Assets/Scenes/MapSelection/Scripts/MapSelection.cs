@@ -18,15 +18,10 @@ public class MapSelection : MonoBehaviour
     [Header("UI References")]
     [SerializeField] private TextMeshProUGUI mapName;
     [SerializeField] private Image mapSplash;
-    [SerializeField] private TextMeshProUGUI playerOneName;
-    [SerializeField] private TextMeshProUGUI playerTwoName;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerOneName.text = CharacterSelection.p1Name.text;
-        playerTwoName.text = CharacterSelection.p2Name.text;
-
         UpdateMapSelectionUI();
     }
 

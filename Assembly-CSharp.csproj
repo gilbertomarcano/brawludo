@@ -44,7 +44,8 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scenes\CharacterSelection\Scripts\CharacterSelection.cs" />
+  <ItemGroup>     <Compile Include="Assets\Credits\Scripts\Credits.cs" />
+     <Compile Include="Assets\Scenes\CharacterSelection\Scripts\CharacterSelection.cs" />
      <Compile Include="Assets\Scenes\CharacterView\Scripts\CharacterView.cs" />
      <Compile Include="Assets\Scenes\MapSelection\Scripts\MapSelection.cs" />
      <Compile Include="Assets\Scenes\Settings\Scripts\Settings.cs" />

@@ -21,33 +21,33 @@ public class StartMenu : MonoBehaviour
         actualSceneName = SceneManager.GetActiveScene().name;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // Botón de jugar
     public void Play()
     {
-        previousSceneName = actualSceneName;
-        actualSceneName = "CharacterSelection";
-        SceneManager.LoadScene(sceneName:"CharacterSelection");
+        Load("CharacterSelection");
 
+    }
+
+    public void Credits()
+    {
+        Load("Credits");
     }
 
     public void CharacterView()
     {
-        previousSceneName = actualSceneName;
-        actualSceneName = "CharacterView";
-        SceneManager.LoadScene(sceneName:"CharacterView");
+        Load("CharacterView");
     }
 
     public void Settings()
     {
+        Load("Settings");
+    }
+
+    static public void Load(string sceneName)
+    {
         previousSceneName = actualSceneName;
-        actualSceneName = "Settings";
-        SceneManager.LoadScene(sceneName:"Settings");
+        actualSceneName = sceneName;
+        SceneManager.LoadScene(sceneName:actualSceneName);
     }
 
     public void BackSettings()

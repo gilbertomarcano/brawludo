@@ -11,9 +11,8 @@ public class CharacterSelection : MonoBehaviour
     private int playerOneSelectedCharacterIndex;
     private int playerTwoSelectedCharacterIndex;
 
-    // Temporales (???)
-    static public TextMeshProUGUI p1Name;
-    static public TextMeshProUGUI p2Name;
+    //static public TextMeshProUGUI p1Name;     VARIABLES GLOBALES
+    //static public TextMeshProUGUI p2Name;     CharacterSelection.p1Name desde otro script
     public bool isReadyPlayerOne;
     public bool isReadyPlayerTwo;
 
@@ -126,9 +125,6 @@ public class CharacterSelection : MonoBehaviour
             // Resetear la posición del texto
             playerStoryRectTransform.localPosition = new Vector3(0, 0, 0);
         }
-
-        p1Name = playerOneCharacterName;
-    
     }
 
     // Actualiza la información mostrada al jugador dos dependiendo de su selección
@@ -136,8 +132,6 @@ public class CharacterSelection : MonoBehaviour
     {
         playerTwoCharacterSplash.sprite = characterList[playerTwoSelectedCharacterIndex].splash;
         playerTwoCharacterName.text = characterList[playerTwoSelectedCharacterIndex].characterName;
-
-        p2Name = playerTwoCharacterName;
     }
 
     // Funciones de los botones del jugador uno
@@ -176,6 +170,7 @@ public class CharacterSelection : MonoBehaviour
         }
         else
         {
+            Debug.Log("Now is not ready");
             isReadyPlayerOne = false;
             playerOneButtonConfirmText.text = "Elegir";
             // Ocultar máscara de confirmación
