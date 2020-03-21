@@ -44,18 +44,23 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\CharacterSelection\Scripts\CharacterSelection.cs" />
-     <Compile Include="Assets\CharacterSelection\Scripts\Script.cs" />
-     <Compile Include="Assets\CharacterView\Scripts\CharacterVeiw.cs" />
-     <Compile Include="Assets\MapSelection\Scripts\MapSelection.cs" />
-     <Compile Include="Assets\StartMenu\Scripts\StartMenu.cs" />
+  <ItemGroup>     <Compile Include="Assets\Scenes\CharacterSelection\Scripts\CharacterSelection.cs" />
+     <Compile Include="Assets\Scenes\CharacterView\Scripts\CharacterView.cs" />
+     <Compile Include="Assets\Scenes\MapSelection\Scripts\MapSelection.cs" />
+     <Compile Include="Assets\Scenes\Settings\Scripts\Settings.cs" />
+     <Compile Include="Assets\Scenes\StartMenu\Scripts\StartMenu.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
