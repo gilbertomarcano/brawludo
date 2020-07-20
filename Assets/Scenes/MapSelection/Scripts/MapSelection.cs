@@ -16,7 +16,6 @@ public class MapSelection : MonoBehaviour
     
     // Referencias del UI de la selección de mapas
     [Header("UI References")]
-    [SerializeField] private TextMeshProUGUI mapName;
     [SerializeField] private Image mapSplash;
 
     // Start is called before the first frame update
@@ -28,7 +27,6 @@ public class MapSelection : MonoBehaviour
     private void UpdateMapSelectionUI()
     {
         mapSplash.sprite = mapList[mapSelectedIndex].splash;
-        mapName.text = mapList[mapSelectedIndex].mapName;
     }
 
     // Funciones de los botones
@@ -52,7 +50,7 @@ public class MapSelection : MonoBehaviour
 
     public void Confirm()
     {
-        Debug.Log(string.Format("Map {0}: {1} was selected", mapSelectedIndex, mapList[mapSelectedIndex].mapName));
+        SceneManager.LoadScene(sceneName: "FightScene");
     }
 
     public void Back()
@@ -64,6 +62,5 @@ public class MapSelection : MonoBehaviour
     public class MapSelectObject
     {
         public Sprite splash;
-        public string mapName;
     }
 }

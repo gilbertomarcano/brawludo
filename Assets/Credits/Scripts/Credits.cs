@@ -7,6 +7,7 @@ public class Credits : MonoBehaviour
 {
     RectTransform rectTransform;
     private float yPosition;
+    public float velocidad;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +17,9 @@ public class Credits : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        rectTransform.localPosition = new Vector3(0, yPosition += 0.5f, 0);
+        rectTransform.localPosition = new Vector3(0, yPosition += velocidad, 0);
     }
 
     public void Back()

@@ -8,11 +8,12 @@ using TMPro;
 public class CharacterSelection : MonoBehaviour
 {
     // Indíces del personaje seleccionado por cada jugador
-    private int playerOneSelectedCharacterIndex;
-    private int playerTwoSelectedCharacterIndex;
+    static private int playerOneSelectedCharacterIndex = 0;
+    static private int playerTwoSelectedCharacterIndex = 0;
 
     //static public TextMeshProUGUI p1Name;     VARIABLES GLOBALES
     //static public TextMeshProUGUI p2Name;     CharacterSelection.p1Name desde otro script
+    // Boleanos que indican cuando algún jugador esté listo
     public bool isReadyPlayerOne;
     public bool isReadyPlayerTwo;
 
@@ -51,6 +52,12 @@ public class CharacterSelection : MonoBehaviour
     private TextMeshProUGUI playerStory;
     private RectTransform playerStoryRectTransform;
 
+
+    // Seleccionador de teclado o gamepad para el jugador 2
+    private Image selectedKeyboard;
+    private Image selectedGamepad;
+    private static int playerTwoController;
+
     
 
 
@@ -75,11 +82,20 @@ public class CharacterSelection : MonoBehaviour
             playerTwoReadyMask = GameObject.Find("PlayerTwoReadyMask").GetComponent<Image>();
             playerTwoReadyMessage = GameObject.Find("PlayerTwoReadyText").GetComponent<TextMeshProUGUI>();
 
+            // Referencias de los botones de control del jugador número dos
+            selectedKeyboard = GameObject.Find("SelectedKeyboard").GetComponent<Image>();
+            selectedGamepad = GameObject.Find("SelectedGamepad").GetComponent<Image>();
+
             // Deshabilitar la pantalla 'ready' de ambos jugadores
             playerOneReadyMask.enabled = false;
             playerTwoReadyMask.enabled = false;
             playerOneReadyMessage.enabled = false;
             playerTwoReadyMessage.enabled = false;
+
+            // Deshabilitar la seleccion de keyboard y gamepad del jugador dos
+            selectedKeyboard.enabled = true;
+            selectedGamepad.enabled = false;
+            playerTwoController = 0;
         }
         else if (StartMenu.actualSceneName == "CharacterView")
         {
@@ -87,29 +103,13 @@ public class CharacterSelection : MonoBehaviour
             playerStory = GameObject.Find("PlayerStory").GetComponent<TextMeshProUGUI>();
             playerStoryRectTransform = GameObject.Find("ContentStory").GetComponent<RectTransform>();
         }
-        
-
-        
-
-
-        
 
         // Actualizar el estado de ambos personajes
         UpdatePlayerOneCharacterSelectionUI();
         UpdatePlayerTwoCharacterSelectionUI();
         
     }
-
-    private void Update()
-    {
-        if (isReadyPlayerOne && isReadyPlayerTwo)
-        {
-            SceneManager.LoadScene(sceneName:"MapSelection");
-        }
-
-        
-            
-    }
+       
 
     // Actualiza la información mostrada al jugador uno dependiendo de su selección
     private void UpdatePlayerOneCharacterSelectionUI()
@@ -159,6 +159,7 @@ public class CharacterSelection : MonoBehaviour
     {
         if (!isReadyPlayerOne)
         {
+            // Actualizar los valores del jugador uno
             isReadyPlayerOne = true;
             playerOneButtonConfirmText.text = "Cambiar";
             // Mostrar máscara de confirmación
@@ -167,10 +168,17 @@ public class CharacterSelection : MonoBehaviour
             // Deshabilitar botones
             playerOneLeftButton.enabled = false;
             playerOneRightButton.enabled = false;
+
+            // Si el jugador número dos está listo, cambiar de escena
+            if (isReadyPlayerTwo)
+            {
+                SceneManager.LoadScene(sceneName:"MapSelection");
+                CharacterSelection.GetPlayerTwoController();
+            }
         }
         else
         {
-            Debug.Log("Now is not ready");
+            // Actualizar los valores del jugador uno
             isReadyPlayerOne = false;
             playerOneButtonConfirmText.text = "Elegir";
             // Ocultar máscara de confirmación
@@ -182,7 +190,7 @@ public class CharacterSelection : MonoBehaviour
         }
     }
 
-    // Funciones de los botones del jugador dos
+    // Muestra el siguiente personaje a la izquierda
     public void PlayerTwoLeftArrow()
     {
         playerTwoSelectedCharacterIndex--;
@@ -192,6 +200,7 @@ public class CharacterSelection : MonoBehaviour
         UpdatePlayerTwoCharacterSelectionUI();
     }
 
+    // Muestra el siguiente personaje a la derecha
     public void PlayerTwoRightArrow()
     {
         playerTwoSelectedCharacterIndex++;
@@ -206,6 +215,7 @@ public class CharacterSelection : MonoBehaviour
     {
         if (!isReadyPlayerTwo)
         {
+            // Actualizar los valores del jugador dos
             isReadyPlayerTwo = true;
             playerTwoButtonConfirmText.text = "Cambiar";
             // Mostrar máscara de confirmación
@@ -214,6 +224,12 @@ public class CharacterSelection : MonoBehaviour
             // Deshabilitar botones
             playerTwoLeftButton.enabled = false;
             playerTwoRightButton.enabled = false;
+
+            // Si el jugador número uno está listo, cambiar de escena
+            if(isReadyPlayerOne)
+            {
+                SceneManager.LoadScene(sceneName: "MapSelection");
+            }
         }
         else
         {
@@ -228,11 +244,43 @@ public class CharacterSelection : MonoBehaviour
         }
     }
 
+   public void ButtonKeyboard()
+    {
+        selectedKeyboard.enabled = true;
+        selectedGamepad.enabled = false;
+        playerTwoController = 0;
+    }
+
+    public void ButtonGamepad()
+    {
+        selectedKeyboard.enabled = false;
+        selectedGamepad.enabled = true;
+        playerTwoController = 1;
+    }
+ 
+    // Botón de atrás
     public void Back()
     {
         SceneManager.LoadScene(sceneName:"StartMenu");
     }
 
+    static public int GetPlayerOneSelectedIndex()
+    {
+        return playerOneSelectedCharacterIndex;
+    }
+
+    static public int GetPlayerTwoSelectedIndex()
+    {
+        return playerTwoSelectedCharacterIndex;
+    }
+
+    // Método para obtener el control del jugador dos
+    static public int GetPlayerTwoController()
+    {
+        return playerTwoController;
+    }
+
+    // Clase de personaje seleccionado
     [System.Serializable]
     public class CharacterSelectObject
     {
@@ -241,4 +289,6 @@ public class CharacterSelection : MonoBehaviour
         public string story;
 
     }
+
+
 }

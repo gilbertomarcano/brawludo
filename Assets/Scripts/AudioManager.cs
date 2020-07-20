@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         // Se reproduce la música principal de fondo justo al arrancar el juego
-        Play("BackgroundMusic");
+        PlayBackgroundMusic("Menu");
+
+        
     }
 
     // Awake es llamado justo antes de llamarse a Start
@@ -47,8 +50,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void Play(string name) { }
     // Método para reproducir cualquier sonido que se encuentre en el juego basado en su nombre
-    public void Play(string name)
+    public void PlayBackgroundMusic(string name)
     {
         // Encontramos el sonido que queremos reproducir utilizando una busqueda de arreglos con el nombre
         Sound sound = Array.Find(sounds, s => s.name == name);
@@ -63,5 +67,75 @@ public class AudioManager : MonoBehaviour
         // Reproducir fuente de sonido
         sound.source.Play();
     }
+
+    public void PlaySound(string name)
+    {
+        // Encontramos el sonido que queremos reproducir utilizando una busqueda de arreglos con el nombre
+        Sound sound = Array.Find(sounds, s => s.name == name);
+
+        if (sound == null)
+        {
+            // De no encontrarse un sonido, alertar con el depurador
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        // Reproducir fuente de sonido
+        sound.source.volume = 0.3f;
+        sound.source.Play();
+    }
+
+    public void PlayButtonClick()
+    {
+        // Encontramos el sonido que queremos reproducir utilizando una busqueda de arreglos con el nombre
+        Sound sound = Array.Find(sounds, s => s.name == "ButtonClick");
+
+        if (sound == null)
+        {
+            // De no encontrarse un sonido, alertar con el depurador
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        // Reproducir fuente de sonido
+        sound.source.volume = 1f;
+        sound.source.Play();
+    }
+
+
+    public void StopMusic(String name)
+    {
+        //Encontramos el sonido que queremos detener utilizando una busqueda de arreglos con el nombre
+        Sound sound = Array.Find(sounds, s => s.name == name);
+
+        if (sound == null)
+        {
+            // De no encontrarse un sonido, alertar con el depurador
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        //Reproducir fuente de sonido
+        sound.source.Stop();
+    }
+
+
+
+    public void SetVolume(string name, float volume)
+    {
+        // Encontramos el sonido que queremos reproducir utilizando una busqueda de arreglos con el nombre
+        Sound sound = Array.Find(sounds, s => s.name == name);
+
+        if (sound == null) 
+        {
+            // De no encontrarse un sonido, alertar con el depurador
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        // Reproducir fuente de sonido
+        sound.source.volume = volume;
+    }
+
 
 }

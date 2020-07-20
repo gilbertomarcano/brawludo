@@ -1,51 +1,138 @@
 fileFormatVersion: 2
 guid: 4e7f4a18ef85dcb478e120a6b56e61c2
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Simon-Char_GO/Simon-Char_GO
-    100002: Simon-Char_GO/Simon-Char_GO/Simon.psd
-    100004: Simon-Char_GO/Simon-Char_GO/body/legL
-    100006: Simon-Char_GO/Simon-Char_GO/body/legL/FootL
-    100008: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/footL
-    100010: Simon-Char_GO/Simon-Char_GO/body/legR
-    100012: Simon-Char_GO/Simon-Char_GO/body/legR/FootR
-    100016: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/footR
-    100038: Simon-Char_GO/Simon-Char_GO/body
-    100040: Simon-Char_GO/Simon-Char_GO/body/hip
-    100042: Simon-Char_GO/Simon-Char_GO/body/hip/belly
-    100044: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest
-    100046: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL
-    100048: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL
-    100050: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/handL
-    100052: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR
-    100054: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR
-    100056: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/handR
-    100058: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/head
-    400000: Simon-Char_GO/Simon-Char_GO/Transform
-    400002: Simon-Char_GO/Simon-Char_GO/Simon.psd/Transform
-    400004: Simon-Char_GO/Simon-Char_GO/body/legL/Transform
-    400006: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/Transform
-    400008: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/footL/Transform
-    400010: Simon-Char_GO/Simon-Char_GO/body/legR/Transform
-    400012: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/Transform
-    400016: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/footR/Transform
-    400038: Simon-Char_GO/Simon-Char_GO/body/Transform
-    400040: Simon-Char_GO/Simon-Char_GO/body/hip/Transform
-    400042: Simon-Char_GO/Simon-Char_GO/body/hip/belly/Transform
-    400044: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/Transform
-    400046: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/Transform
-    400048: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/Transform
-    400050: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/handL/Transform
-    400052: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/Transform
-    400054: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/Transform
-    400056: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/handR/Transform
-    400058: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/head/Transform
-    2800000: Simon-Char
-    11400000: Simon-Char_GO/Simon-Char_GO/Simon.psd/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
-    21200000: Simon-Char_GO/Simon-Char_GO/Simon.psd/SpriteRenderer
-    21300000: 9990fd8ae2047934ea28efe8022f0a1a
-    100100000: Simon-Char_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Simon-Char_GO/Simon-Char_GO
+  - first:
+      1: 100002
+    second: Simon-Char_GO/Simon-Char_GO/Simon.psd
+  - first:
+      1: 100004
+    second: Simon-Char_GO/Simon-Char_GO/body/legL
+  - first:
+      1: 100006
+    second: Simon-Char_GO/Simon-Char_GO/body/legL/FootL
+  - first:
+      1: 100008
+    second: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/footL
+  - first:
+      1: 100010
+    second: Simon-Char_GO/Simon-Char_GO/body/legR
+  - first:
+      1: 100012
+    second: Simon-Char_GO/Simon-Char_GO/body/legR/FootR
+  - first:
+      1: 100016
+    second: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/footR
+  - first:
+      1: 100038
+    second: Simon-Char_GO/Simon-Char_GO/body
+  - first:
+      1: 100040
+    second: Simon-Char_GO/Simon-Char_GO/body/hip
+  - first:
+      1: 100042
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly
+  - first:
+      1: 100044
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest
+  - first:
+      1: 100046
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL
+  - first:
+      1: 100048
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL
+  - first:
+      1: 100050
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/handL
+  - first:
+      1: 100052
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR
+  - first:
+      1: 100054
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR
+  - first:
+      1: 100056
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/handR
+  - first:
+      1: 100058
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/head
+  - first:
+      4: 400000
+    second: Simon-Char_GO/Simon-Char_GO/Transform
+  - first:
+      4: 400002
+    second: Simon-Char_GO/Simon-Char_GO/Simon.psd/Transform
+  - first:
+      4: 400004
+    second: Simon-Char_GO/Simon-Char_GO/body/legL/Transform
+  - first:
+      4: 400006
+    second: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/Transform
+  - first:
+      4: 400008
+    second: Simon-Char_GO/Simon-Char_GO/body/legL/FootL/footL/Transform
+  - first:
+      4: 400010
+    second: Simon-Char_GO/Simon-Char_GO/body/legR/Transform
+  - first:
+      4: 400012
+    second: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/Transform
+  - first:
+      4: 400016
+    second: Simon-Char_GO/Simon-Char_GO/body/legR/FootR/footR/Transform
+  - first:
+      4: 400038
+    second: Simon-Char_GO/Simon-Char_GO/body/Transform
+  - first:
+      4: 400040
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/Transform
+  - first:
+      4: 400042
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/Transform
+  - first:
+      4: 400044
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/Transform
+  - first:
+      4: 400046
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/Transform
+  - first:
+      4: 400048
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/Transform
+  - first:
+      4: 400050
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armL/forearmL/handL/Transform
+  - first:
+      4: 400052
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/Transform
+  - first:
+      4: 400054
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/Transform
+  - first:
+      4: 400056
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/armR/forearmR/handR/Transform
+  - first:
+      4: 400058
+    second: Simon-Char_GO/Simon-Char_GO/body/hip/belly/chest/head/Transform
+  - first:
+      28: 2800000
+    second: Simon-Char
+  - first:
+      114: 11400000
+    second: Simon-Char_GO/Simon-Char_GO/Simon.psd/MonoBehaviour-UnityEngine.Experimental.U2D.Animation.SpriteSkin
+  - first:
+      212: 21200000
+    second: Simon-Char_GO/Simon-Char_GO/Simon.psd/SpriteRenderer
+  - first:
+      213: 21300000
+    second: 9990fd8ae2047934ea28efe8022f0a1a
+  - first:
+      1001: 100100000
+    second: Simon-Char_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -116,6 +203,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,24 +227,25 @@ ScriptedImporter:
       width: 1271
       height: 1796
     spriteID: 9990fd8ae2047934ea28efe8022f0a1a
+    internalID: 0
     spriteBone:
     - name: head
-      position: {x: 371.67596, y: -149.19035, z: -3}
-      rotation: {x: 0, y: 0, z: -0.015059684, w: 0.99988663}
+      position: {x: 371.67603, y: -149.19026, z: -3}
+      rotation: {x: 0, y: 0, z: -0.015059685, w: 0.99988663}
       length: 562.30505
       parentId: 5
     - name: armR
-      position: {x: 496.0639, y: -574.87885, z: -9}
+      position: {x: 496.06403, y: -574.8788, z: -9}
       rotation: {x: 0, y: 0, z: 0.9999561, w: -0.009377859}
-      length: 278.29385
+      length: 278.29382
       parentId: 5
     - name: armL
-      position: {x: 536.7788, y: 471.0827, z: 0}
-      rotation: {x: 0, y: 0, z: 0.9994656, w: 0.032691114}
-      length: 291.40674
+      position: {x: 536.7788, y: 471.08276, z: 0}
+      rotation: {x: 0, y: 0, z: 0.9994656, w: 0.03269112}
+      length: 291.40677
       parentId: 5
     - name: hip
-      position: {x: -17.63379, y: 630.6113, z: -4}
+      position: {x: -22.295593, y: -232.70459, z: -4}
       rotation: {x: 0, y: 0, z: 0.7347621, w: 0.678325}
       length: 46.476025
       parentId: 16
@@ -166,62 +255,62 @@ ScriptedImporter:
       length: 85.42198
       parentId: 3
     - name: chest
-      position: {x: 85.42199, y: 0.00014698498, z: -4}
-      rotation: {x: 0, y: 0, z: -0.011495789, w: 0.99993396}
-      length: 307.88745
+      position: {x: 85.42199, y: 0.00008607924, z: -4}
+      rotation: {x: 0, y: 0, z: -0.011495872, w: 0.99993396}
+      length: 307.8874
       parentId: 4
     - name: forearmL
-      position: {x: 372.68616, y: 1.890516, z: -1}
-      rotation: {x: 0, y: 0, z: 0.011625531, w: 0.99993247}
+      position: {x: 372.68613, y: 1.8905592, z: -1}
+      rotation: {x: 0, y: 0, z: 0.011625533, w: 0.9999324}
       length: 213.41475
       parentId: 2
     - name: forearmR
-      position: {x: 396.6402, y: -7.215239, z: -10}
-      rotation: {x: 0, y: 0, z: -0.0216775, w: 0.9997651}
-      length: 193.11919
+      position: {x: 396.64023, y: -7.215154, z: -10}
+      rotation: {x: 0, y: 0, z: -0.021677501, w: 0.99976504}
+      length: 193.1192
       parentId: 1
     - name: handL
-      position: {x: 287.77457, y: 3.3875709, z: -2}
-      rotation: {x: 0, y: 0, z: -4.32575e-10, w: 1}
+      position: {x: 287.77454, y: 3.387564, z: -2}
+      rotation: {x: 0, y: 0, z: 4.4071614e-11, w: 1}
       length: 142.44638
       parentId: 6
     - name: legR
-      position: {x: 215.80853, y: 626.5239, z: -7}
+      position: {x: 211.14673, y: -236.79199, z: -7}
       rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
       length: 213.5615
       parentId: 16
     - name: legL
-      position: {x: -290.57404, y: 622.1206, z: -5}
+      position: {x: -295.23584, y: -241.19531, z: -5}
       rotation: {x: 0, y: 0, z: 0.71784335, w: -0.69620466}
       length: 215.86427
       parentId: 16
     - name: handR
-      position: {x: 274.04932, y: -2.603872, z: -11}
-      rotation: {x: 0, y: 0, z: 0.0057623005, w: 0.99998343}
-      length: 163.50732
+      position: {x: 274.04922, y: -2.6038876, z: -11}
+      rotation: {x: 0, y: 0, z: 0.005762301, w: 0.99998343}
+      length: 163.50734
       parentId: 7
     - name: footL
-      position: {x: 175.4994, y: -0.000000002568413, z: -6}
-      rotation: {x: 0, y: 0, z: -0.8313841, w: -0.5556982}
-      length: 141.06122
+      position: {x: 175.49947, y: 0.00005324288, z: -6}
+      rotation: {x: 0, y: 0, z: -0.83138424, w: -0.5556981}
+      length: 141.06128
       parentId: 13
     - name: FootL
       position: {x: 275.14615, y: 6.220263, z: -6}
-      rotation: {x: 0, y: 0, z: -0.15682381, w: 0.9876266}
+      rotation: {x: 0, y: 0, z: -0.15682393, w: 0.9876266}
       length: 175.49945
       parentId: 10
     - name: footR
-      position: {x: 175.47299, y: -0.000071399045, z: -8}
-      rotation: {x: 0, y: 0, z: 0.8022715, w: 0.59695935}
-      length: 151.93074
+      position: {x: 175.47299, y: 0.00003642287, z: -8}
+      rotation: {x: 0, y: 0, z: 0.80227154, w: 0.5969593}
+      length: 151.93076
       parentId: 15
     - name: FootR
       position: {x: 277.40857, y: 17.613558, z: -8}
-      rotation: {x: 0, y: 0, z: -0.1523429, w: 0.98832774}
-      length: 175.47307
+      rotation: {x: 0, y: 0, z: -0.15234306, w: 0.9883277}
+      length: 175.47304
       parentId: 9
     - name: body
-      position: {x: 635.3814, y: 39.918213, z: 0}
+      position: {x: 640.0432, y: 903.23413, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       length: 487.80493
       parentId: -1
@@ -2890,6 +2979,10 @@ ScriptedImporter:
   importedTextureWidth: 2048
   importedTextureHeight: 2048
   documentSize: {x: 1600, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
@@ -2907,23 +3000,23 @@ ScriptedImporter:
   characterData:
     bones:
     - name: body
-      position: {x: 824.3814, y: 163.91821, z: 0}
+      position: {x: 829.0432, y: 1027.2341, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       length: 487.80493
       parentId: -1
     - name: hip
-      position: {x: -17.63379, y: 630.6113, z: -4}
-      rotation: {x: 0, y: -0, z: 0.7347621, w: 0.678325}
+      position: {x: -22.295593, y: -232.70459, z: -4}
+      rotation: {x: 0, y: 0, z: 0.7347621, w: 0.678325}
       length: 46.47603
       parentId: 0
     - name: belly
       position: {x: 46.47605, y: -0.00003475439, z: -4}
-      rotation: {x: 0, y: 0, z: -0.00735062, w: 0.999973}
+      rotation: {x: 0, y: 0, z: -0.0073506203, w: 0.999973}
       length: 85.42198
       parentId: 1
     - name: chest
-      position: {x: 85.422005, y: 0.00018810925, z: -4}
-      rotation: {x: 0, y: 0, z: -0.011495806, w: 0.99993396}
+      position: {x: 85.422, y: 0.00012720352, z: -4}
+      rotation: {x: 0, y: 0, z: -0.011495889, w: 0.99993396}
       length: 307.8874
       parentId: 2
     - name: head
@@ -2962,33 +3055,33 @@ ScriptedImporter:
       length: 142.44638
       parentId: 9
     - name: legL
-      position: {x: -290.57404, y: 622.1206, z: -5}
+      position: {x: -295.23584, y: -241.19531, z: -5}
       rotation: {x: 0, y: 0, z: 0.71784335, w: -0.69620466}
       length: 215.86426
       parentId: 0
     - name: FootL
       position: {x: 275.14615, y: 6.2202783, z: -6}
-      rotation: {x: 0, y: 0, z: -0.15682383, w: 0.9876266}
-      length: 175.49945
+      rotation: {x: 0, y: 0, z: -0.15682393, w: 0.9876266}
+      length: 175.49942
       parentId: 11
     - name: footL
-      position: {x: 175.4994, y: -0.00001968901, z: -6}
-      rotation: {x: 0, y: 0, z: -0.8313841, w: -0.55569816}
+      position: {x: 175.49944, y: 0.000022299278, z: -6}
+      rotation: {x: 0, y: 0, z: -0.83138424, w: -0.5556981}
       length: 141.06122
       parentId: 12
     - name: legR
-      position: {x: 215.80853, y: 626.5239, z: -7}
+      position: {x: 211.14673, y: -236.79199, z: -7}
       rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
       length: 213.5615
       parentId: 0
     - name: FootR
       position: {x: 277.4085, y: 17.613583, z: -8}
-      rotation: {x: 0, y: 0, z: -0.15234289, w: 0.98832774}
-      length: 175.47308
+      rotation: {x: 0, y: 0, z: -0.15234308, w: 0.9883277}
+      length: 175.47302
       parentId: 14
     - name: footR
-      position: {x: 175.47307, y: -0.000008431821, z: -8}
-      rotation: {x: 0, y: 0, z: 0.80227154, w: 0.59695935}
+      position: {x: 175.47302, y: 0.000033794946, z: -8}
+      rotation: {x: 0, y: 0, z: 0.8022716, w: 0.59695923}
       length: 151.93074
       parentId: 15
     parts:
@@ -2999,7 +3092,10 @@ ScriptedImporter:
         height: 1796
       spriteId: 9990fd8ae2047934ea28efe8022f0a1a
       bones: 04000000050000000800000001000000020000000300000009000000060000000a0000000e0000000b000000070000000d0000000c000000100000000f00000000000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
+    characterGroups: []
   boneGOs:
   - go: {fileID: 100038, guid: 4e7f4a18ef85dcb478e120a6b56e61c2, type: 3}
     index: 0
@@ -3038,3 +3134,4 @@ ScriptedImporter:
   generateGOHierarchy: 0
   textureAssetName: Simon-Char
   prefabAssetName: Simon-Char_GO
+  spriteLibAssetName: Simon-Char Sprite Lib

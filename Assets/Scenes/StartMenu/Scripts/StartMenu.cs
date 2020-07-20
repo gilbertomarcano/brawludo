@@ -14,11 +14,14 @@ public class StartMenu : MonoBehaviour
     public static string previousSceneName;
 
     private Vector3[] menuPositions;
+    private AudioManager audioManager;
+    private bool playingMusic = true;
 
     // Start is called before the first frame update
     void Start()
     {
         actualSceneName = SceneManager.GetActiveScene().name;
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Botón de jugar
@@ -41,6 +44,21 @@ public class StartMenu : MonoBehaviour
     public void Settings()
     {
         Load("Settings");
+    }
+
+    public void Close()
+    {
+        Application.Quit();
+    }
+
+    public void ToggleMenuMusic()
+    {
+        if (playingMusic)
+            audioManager.StopMusic("Menu");
+        else
+            audioManager.PlayBackgroundMusic("Menu");
+
+        playingMusic = !playingMusic;
     }
 
     static public void Load(string sceneName)
